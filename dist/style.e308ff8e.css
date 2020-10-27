@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+   background-color: #019fe9;
+}
 .head {
   position: fixed;
   top: 20px;
@@ -21,6 +23,13 @@ ul > li {
 }
 button {
   padding: 5px;
+  background-color: #019fe9;
+  border: 1px solid black;
+  color: #fff;
+}
+button:hover{
+  background-color: pink;
+
 }
 @media (max-width: 500px) {
   .wrap {
